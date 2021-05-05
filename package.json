@@ -4,7 +4,8 @@
   "description": "Realtime chat app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev":"nodemon server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/kaangecu/socketio/issues"
   },
-  "homepage": "https://github.com/kaangecu/socketio#readme"
+  "homepage": "https://github.com/kaangecu/socketio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.1"
+  }
 }
